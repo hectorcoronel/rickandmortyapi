@@ -4,7 +4,7 @@
   "description": "Single page application vanilla",
   "main": "index.js",
   "scripts": {
-    "build": "webpack --modo production",
+    "build": "webpack --mode production",
     "start": "webpack-dev-server --open --mode development"
   },
   "keywords": [
@@ -15,11 +15,11 @@
   "author": "",
   "license": "MIT",
   "devDependencies": {
-    "@babel/core": "^7.12.8",
-    "babel-loader": "^8.2.1",
-    "html-webpack-plugin": "^4.5.0",
-    "webpack": "^5.6.0",
-    "webpack-cli": "^4.2.0",
-    "webpack-dev-server": "^3.11.0"
+    "@babel/core": "^7.11.6",
+    "babel-loader": "^8.0.6",
+    "html-webpack-plugin": "^4.2.0",
+    "webpack": "^4.42.1",
+    "webpack-cli": "^3.3.11",
+    "webpack-dev-server": "^3.10.3"
   }
 }
