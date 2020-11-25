@@ -1,10 +1,14 @@
 @import url('https://fonts.googleapis.com/css?family=Open+Sans:300,400&display=swap');
-
+:root{
+  --darkBlue: #24325fff;
+  --green: #60c740;
+  --white: #ffffff;
+}
 body {
   margin: 0;
   padding: 0;
-  background-color: #f4f4f4;
-  color: #3c484e;
+  background-color: var(--darkBlue);
+  color: var(--green);
   font-family: 'Open Sans', sans-serif;
 }
 
@@ -16,7 +20,7 @@ body {
 
 .Header a {
   text-decoration: none;
-  color: #15302C;
+  color: var(--green);
 }
 
 .Main {
@@ -31,8 +35,12 @@ body {
   grid-gap: 1.5rem;
   grid-row-gap: 1.5em;
   display: grid;
+  text-align: center; 
 }
-
+a{
+  text-decoration: none;
+  color: white;
+}
 .Characters-inner {
   grid-template-columns: 1fr 2fr;
   grid-gap: 1.5rem;
@@ -42,12 +50,13 @@ body {
 
 .Characters-card {
   text-decoration: none;
-  box-shadow: 8px 14px 38px rgba(39,44,49,.06), 1px 3px 8px rgba(39,44,49,.03);
+  box-shadow: 8px 14px 38px var(--green), 1px 3px 8px var(--green);
   border-radius: 5px;
   margin: 0 0 20px 0;
   display: block;
   animation-duration: 2s;
   animation-name: fade;
+  color: white;
 }
 
 .Characters-card img {
@@ -60,6 +69,7 @@ body {
   font-size: 18px;
   font-weight: 400;
   text-align: center;
+  color: var(--green);
 }
 
 .Characters-card h3 {
@@ -67,11 +77,12 @@ body {
   font-weight: 400;
   text-align: left;
   margin: 20px;
+  color: var(--white);
 }
 
 .Characters-item {
   text-decoration: none;
-  box-shadow: 8px 14px 38px rgba(39,44,49,.06), 1px 3px 8px rgba(39,44,49,.03);
+  box-shadow: 8px 14px 38px rgba(123, 125, 128, 0.788), 1px 3px 8px rgba(177, 185, 194, 0.808);
   border-radius: 5px;
   margin: 0 0 20px 0;
   display: block;
@@ -95,7 +106,7 @@ body {
 
 .Characters-item a {
   text-decoration: none;
-  color: #026C86;
+  color: #d1dde0;
 }
 
 @keyframes fade {
