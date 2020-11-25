@@ -37,3 +37,6 @@ y cambiar el archivo package.json de la siguiente forma
     "webpack-dev-server": "^3.10.3"
   }
 }
+
+
+utilizar npm install webpack-cli@3.3.11
