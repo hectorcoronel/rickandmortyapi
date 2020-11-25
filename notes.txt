@@ -40,3 +40,7 @@ y cambiar el archivo package.json de la siguiente forma
 
 
 utilizar npm install webpack-cli@3.3.11
+
+------
+para poder usar CSS
+npm install copy-webpack-plugin --save-dev
