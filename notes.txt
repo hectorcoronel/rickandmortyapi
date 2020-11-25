@@ -1,5 +1,3 @@
-Las SPAs (Single Page Application) no  son tan complatibles con los SEOs por lo que en la cabecera solo podra estar un SEO 
-
 SPA Son aplicaciones construidas con JavaScript que nos permiten cargar nuestro contenido una sóla vez, es decir, se envían los archivos HTML, CSS y JS una sóla vez al navegador y ahí es donde va a vivir toda nuestra aplicación, de tal forma que la aplicación no necesita ser recargada, por ello, si se necesita navegar en la aplicación, se navega entre secciones y no páginas.
 
 Ventajas
@@ -44,3 +42,5 @@ utilizar npm install webpack-cli@3.3.11
 ------
 para poder usar CSS
 npm install copy-webpack-plugin --save-dev
+
+se debe de hacer un npm run build
